@@ -1,7 +1,7 @@
 const dadosBoletoMatera = require("../dados/dadosBoletoMatera");
 
 exports.postboletoMatera = (req, res) => {
-  if (req.headers["content-type"] !== "Content-Type") {
+  if (req.headers["content-type"] !== "Topaz") {
     res.status(400).json({
       error: [
         {
